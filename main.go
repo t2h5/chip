@@ -1,5 +1,9 @@
 package main
 
+import (
+	"github.com/t2h5/chip/cmd"
+)
+
 func main() {
-	println("chip is wip");
+	cmd.Execute()
 }
